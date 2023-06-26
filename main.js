@@ -68,6 +68,3 @@ function a27() {
         slider1.style.marginLeft= '-300%';
     }
 }
-  
-
-g
