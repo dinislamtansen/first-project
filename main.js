@@ -1,8 +1,8 @@
 var nav1=document.getElementById('nav1');
 
 function a23(spp){
-    if (nav1.style.display=='block') {
-        nav1.style.display='none';
+    if (nav1.style.display=='none') {
+        nav1.style.display='block';
     } else {
         nav1.style.display='block';
     }

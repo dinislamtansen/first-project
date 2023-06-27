@@ -14,14 +14,13 @@ header{
 }
 #hd1 {
     float: left;
-    padding: 20px 0px 0px 20px;
+    padding: 20px 0px 20px 20px;
     width:33.33%;
 }
 #hdr-lft{
     float: left;
     vertical-align: middle;
     width: 33.33%;
-    padding-right: 40px;
     
 }
 #hdr-lft img{
@@ -29,22 +28,17 @@ header{
     height: 63px;
 }
 #hdr-rgt{
-    float: right;
-    vertical-align: middle;
-    width: 33.33%;
-    padding-right: 20px;
-    padding-top: 15px;
-    text-align: right;
+    width: 33.3%;
+    float: left;
+    padding: 20px 10px 20px 40px;
 }
 nav {
     position: absolute;
-    padding: 5px;
-    left: 15px;
-    top: 39px;
+    left: 0px;
     display: none;
 }
 #nav1{
-    margin-top: -2px;
+    padding-top: 45px;
 
 
 }
@@ -68,7 +62,7 @@ nav a{
     
 }
 #searchbox input{
-    padding: 15px 100px  15px 12px;
+    padding: 15px 100px  15px 40px;
     background-color: rgb(230 236 242);
     border:none;
     border-bottom-left-radius: 5px;
@@ -252,73 +246,49 @@ h4{
     width: 19%;
 
 }
-@media only screen and (min-width: 769px){
-    
-    
+@media only screen and (min-width: 768px){
     .row::after{
         content: "";
         clear: both;
         display: table;
-    }#hd1 button{
-        float: left;
-        padding: 10px 50px;
+    }
+    #hd1 {
+        padding: 25px 0px 0px 40px;
+        
+        
     }
     #hdr-lft{
         float: left;
-        margin-left: 50px;
+        width: 33.3%;
+        
+        
         
     }
     #hdr-lft img{
-        width: 300px;
+        width: 200px;
         height: 80px;
     }
     #hdr-rgt{
         float: right;
         vertical-align: middle;
-        padding: 20px 10px 0px 0px;
+        padding: 20px 0px 0px 70px;
+        
     }
     #hdr-rgt button{
-        margin-right: 0px;
-        padding: 10px 30px;
-    }
-    nav {
-        position: absolute;
-        padding: 5px;
-        left: 15px;
-        top: 39px;
-        display: none;
-    }
-    #nav1{
-        margin-top: -2px;
-    
-    
-    }
-    nav a{
-        display: block;
-        text-decoration: none;
-        border: 1px solid green;
-        border-radius: 5px;
-        padding: 10px 25px;
-        background-color: #0a0a2d;
-        color: white;
-    }
-    .row::after{
-        content: "";
-        clear: both;
-        display: table;
+        
+        
     }
     #search{
-        padding-bottom: 20px;
+        padding: 0px 40px 40px 40px;
+        
     }
     #searchbox input{
-        padding: 15px 400px  15px 12px;
-        margin-left: 60px;
-        margin-right: -4px;
+        
         background-color: rgb(230 236 242);
         border:none;
         border-bottom-left-radius: 5px;
         border-top-left-radius: 5px;
-        text-align: left;
+        text-align: center;
         width: 75%;
     }
     #searchbox button{
@@ -336,8 +306,8 @@ h4{
     #slider-1 img{
         width: 100%;
         height: 300px;
-        padding: 15px;
-        border-radius: 30px;
+        padding: 40px;
+        border-radius: 60px;
     }
     #campaign{
         padding: 15px;
